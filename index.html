@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ash Katta</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="intro">
+        <div class="description">
+          <span id="hello">Hi there! 👋 </span>
+          <p>My name is Ash.</p>
+          <br />
+          <p>I'm a web developer based in Minneapolis.</p>
+          <p>
+            I like to make things that are equitable, engaging, and helpful.
+          </p>
+        </div>
+      </div>
+      <h1 id="projects">Projects</h1>
+      <div class="projects">
+        <div class="project-card">
+          <div class="project-img">
+            <video muted loop src="assets/pomoDemo.mov"></video>
+          </div>
+          <div class="project-description">
+            <h2>Pomo</h2>
+            <p>A minimalist pomodoro timer as a React app.</p>
+            <h3>Features</h3>
+            <ul>
+              <li>Custom CSS Animations</li>
+              <li>Keyboard interaction</li>
+              <li>
+                Uses react-toastify to display encouraging messages every so
+                often.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="ephemeral" class="project-card">
+          <div class="project-img">
+            <video
+              id="ephemeralDemo"
+              muted
+              loop
+              src="assets/ephemeralDemo.mov"
+            ></video>
+          </div>
+          <div class="project-description">
+            <h2>Ephemeral Insurance</h2>
+            <p>A beautiful landing page for an insurance company.</p>
+            <p>
+              In order to incorporate some storytelling to the product pitch, I
+              used the recently released
+              <a
+                href="https://developer.chrome.com/articles/scroll-driven-animations/"
+                >Scroll-driven Animations Specification</a
+              >
+              which maps an animation timeline to scroll position.
+            </p>
+          </div>
+        </div>
+
+        <div id="5E Docs" class="project-card">
+          <div class="project-img">
+            <video
+              id="5eDocsDemo"
+              muted
+              loop
+              src="assets/5eDocsDemo.mov"
+            ></video>
+          </div>
+          <div class="project-description">
+            <h2>WebSRD</h2>
+            <p>
+              Everything you need to play Dungeons & Dragons, modernized for the
+              web.
+            </p>
+            <p>
+              The original SRD is a large PDF reference manual. This is a
+              searchable, fast web implementation.
+            </p>
+            <h3>Features</h3>
+            <ul>
+              <li>Built with the Jekyll static site generator</li>
+              <li>
+                Uses the Javascript
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                  >Fetch API</a
+                >
+                to asynchronously fetch and display data
+              </li>
+              <li>Uses regular expressions to parse Markdown</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="learning">
+        <h1>Learning</h1>
+        <div id="learning-desc">
+          <p>
+            These are some projects I've made during my educational journey
+            which I'm especially proud of.
+          </p>
+        </div>
+
+        <h2>Web Development</h2>
+        <h3>The Odin Project (Full Stack Javascript Curriculum)</h3>
+        <div>
+          <div class="course-project">
+            <div class="title-plus-badges">
+              <span class="project-title">Brisk: Weather at a glance</span>
+              <div class="links">
+                <a href="#"
+                  ><img
+                    class="external-link"
+                    src="assets/icons/external-link.svg"
+                /></a>
+                <a href="#"
+                  ><img class="github" src="assets/icons/github.svg"
+                /></a>
+              </div>
+            </div>
+            <p>
+              Brisk is a weather app that's designed to be quick to parse. It
+              uses only client-side Javascript to pull weather data from Weather
+              API.
+            </p>
+          </div>
+        </div>
+        <h2>Computer Science</h2>
+        <h3>CS50 from Harvard University</h3>
+        <div class="course-project">
+          <div class="title-plus-badges">
+            <span class="project-title">Filter</span>
+            <div class="links">
+              <a href="#"
+                ><img
+                  class="external-link"
+                  src="assets/icons/external-link.svg"
+              /></a>
+              <a href="#"
+                ><img class="github" src="assets/icons/github.svg"
+              /></a>
+            </div>
+          </div>
+          <p>
+            A program to apply filters (à la Instagram) to bitmap images. I
+            explored how C handles memory using pointers and file I/O methods.
+            One cool filter uses the
+            <a href="https://en.wikipedia.org/wiki/Sobel_operator"
+              >Sobel Edge-detection Algorithm</a
+            >
+            to identify objects in an image.
+          </p>
+        </div>
+        <div class="course-project">
+          <div class="title-plus-badges">
+            <span class="project-title">Tideman</span>
+            <div class="links">
+              <a href="#"
+                ><img
+                  class="external-link"
+                  src="assets/icons/external-link.svg"
+              /></a>
+              <a href="#"
+                ><img class="github" src="assets/icons/github.svg"
+              /></a>
+            </div>
+          </div>
+          <p>
+            This program simulates a ranked-pairs election. The winner is the
+            one who would win head-to-head against every other candidate.
+          </p>
+          <br />
+          <p>
+            I represented a graph of candidates as a
+            <a href="https://en.wikipedia.org/wiki/Adjacency_matrix">matrix</a>
+            and used recursion to check every matchup.
+          </p>
+        </div>
+        <div class="course-project">
+          <div class="title-plus-badges">
+            <span class="project-title">Speller</span>
+            <div class="links">
+              <a href="#"
+                ><img
+                  class="external-link"
+                  src="assets/icons/external-link.svg"
+              /></a>
+              <a href="#"
+                ><img class="github" src="assets/icons/github.svg"
+              /></a>
+            </div>
+          </div>
+          <p>
+            A very fast spellchecker written in C. It compares every word in a
+            text against a hash table consisting of an array of linked lists.
+          </p>
+          <br />
+          <p>
+            This was actually quite challenging. I researched hash functions and
+            wrote a custom hash function to hash every word in an English
+            dictionary.
+          </p>
+        </div>
+        <div class="course-project">
+          <div class="title-plus-badges">
+            <span class="project-title">C$50 Finance</span>
+            <div class="links">
+              <a href="#"
+                ><img
+                  class="external-link"
+                  src="assets/icons/external-link.svg"
+              /></a>
+              <a href="#"
+                ><img class="github" src="assets/icons/github.svg"
+              /></a>
+            </div>
+          </div>
+          <p>
+            A web application built with Python (Flask) and SQLite3. It lets
+            users register for an account and engage in simulated stock trading.
+            It fetches real-time stock quotes from an API.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script delay src="./script.js"></script>
+  </body>
+</html>
