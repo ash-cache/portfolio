@@ -167,3 +167,7 @@ h1,h2,h3 {
 .project-title {
     font-size: 1.6rem;
 }
+
+.course-project > p {
+    margin: 1rem 0;
+}
