@@ -45,7 +45,6 @@ nav > ul {
     height: calc(60vh - 48px);
     display: flex;
     justify-content: center;
-
 }
 
 #hello {
@@ -61,6 +60,7 @@ nav > ul {
 
 .description {
     font-size: 1.5rem;
+    padding: 2rem;
 }
 
 h1,h2,h3 {
@@ -137,12 +137,17 @@ h1,h2,h3 {
     margin: 2rem auto;
 }
 
+#learning-desc > p {
+    padding: 0 2rem;
+}
+
 .course-project {
     display: flex;
     flex-direction: column;
     max-width: 65ch;
     margin: 4rem auto;
     line-height: 1.5rem;
+    padding: 0 2rem;
 }
 
 .title-plus-badges {
