@@ -152,17 +152,23 @@ h1,h2,h3 {
 
 .title-plus-badges {
     display: flex;
+    align-items: center;
 }
 
 .links {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 6ch;
+    margin-left: 1ch;
+}
+
+.links > a {
+    height: 1rem;
+    margin-right: 1ch;
 }
 
 .external-link {
-    height: 1.25rem;
+    height: .95rem;
 }
 
 .github {
