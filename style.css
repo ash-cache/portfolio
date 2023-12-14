@@ -70,7 +70,7 @@ h1,h2,h3 {
 .projects {
     display: grid;
     margin: 0 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
